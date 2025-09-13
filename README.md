@@ -30,7 +30,7 @@ System Overview
 <div align="center">
     
 <img src="assets/PerformanceMode.png" alt="Obstacle Detection" width="500"><br>
-Real-time detection of red triangles (dangerous obstacles) with avoidance commands 
+Real-time detection of dangerous obstacles with avoidance commands 
 
 <br>
 
