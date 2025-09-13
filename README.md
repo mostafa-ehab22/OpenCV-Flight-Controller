@@ -18,26 +18,34 @@ This system processes live video feed from an IP camera to detect and classify c
 - **Interactive Airplane Visualization**: 3D-style airplane model with realistic control surface animations
 
 ## 📸 Demo Screenshots
+<div align="center">
+    
+<img src="assets/PerformanceMode.png" alt="Obstacle Detection" width="500"><br>
+Real-time detection of red triangles (dangerous obstacles) with avoidance commands 
 
-### System in Action
-![Obstacle Detection](assets/PerformanceMode.png) <br>
-*Real-time detection of red triangles (dangerous obstacles) with avoidance commands*
+<br>
 
-### Airplane Animation GUI
-![GUI Animation](assets/AnimationMode.png) <br>
-*Interactive airplane visualization showing roll and pitch responses*
+<img src="assets/AnimationMode.png" alt="GUI Animation" width="500"><br>
+Interactive airplane visualization showing roll and pitch responses <br>
 
-### System Architecture
-![System Flowchart](assets/Logic-flowchart.png) <br>
-*Processing pipeline and decision flow*
+<br>
+
+<img src="assets/Logic-flowchart.png" alt="System Flowchart" width="400"><br>
+Processing pipeline and decision flow
+
+</div>
 
 ## 🛩️ Object Classification System
 
+<div align="center">
+    
 | Object Type | Color | Shape | Classification | Action |
 |-------------|-------|-------|----------------|--------|
 | **Dangerous Obstacle** | 🔴 Red | △ Triangle | High Priority Avoidance | Roll/Pitch commands generated |
 | **Boundary Marker** | 🔵 Blue | ◻️ Square | Navigation Reference | Visual tracking only |
 | **Safe Zone** | 🟢 Green | ● Circle | Safe Area | No avoidance needed |
+
+</div>
 
 ## 🚀 Installation
 
