@@ -330,5 +330,3 @@ Contributions are welcome! Areas for improvement:
 ## 📄 License
 
 This project is open-source. Please ensure responsible use, especially when integrating with real aircraft systems.
-
-**⚠️ Safety Notice**: This system is designed for educational and simulation purposes. Any integration with real aircraft systems should undergo thorough testing and comply with aviation safety regulations.
