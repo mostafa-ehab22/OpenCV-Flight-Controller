@@ -22,7 +22,7 @@ This system processes live video feed from an IP camera to detect and classify c
 <div align="center">
     
 <img src="assets/System-flowchart.png" alt="System Flowchart" width="600"><br>
-System Overview
+*Complete System Architecture*
 
 </div>
 
@@ -178,6 +178,9 @@ IF dangerous_obstacle_detected:
 ELSE:
     COMMAND = "Clear"
 ```
+
+📋 **[View Detailed Logic Flowchart](assets/Logic-flowchart.png)** - Complete decision tree diagram
+
 
 ## 🎨 GUI Features (Animation Mode)
 
