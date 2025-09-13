@@ -285,17 +285,25 @@ video_thread.start()
 ## 📊 Project Structure
 
 ```
-airplane_avoidance_system.py
-├── Section 1: Setup & Configuration
-├── Section 2: Shape Detection Functions  
-├── Section 3: Core Video Processing
-├── Section 4: Object Detection & Classification
-├── Section 5: Obstacle Avoidance Logic
-├── Section 6: Display & Visual Aids
-├── Section 7-8: Airplane Animation Classes
-├── Section 9: Threaded Video Processing
-├── Section 10: Main Execution Controller
-└── Section 11: Cleanup & Error Handling
+OpenCV-Flight-Controller/
+├── assets/
+│   ├── PerformanceMode.png
+│   ├── AnimationMode.png
+│   ├── System-flowchart.png
+│   └── Logic-flowchart.png
+├── airplane_avoidance_system.py
+│   ├── Section 1: Setup & Configuration
+│   ├── Section 2: Shape Detection Functions  
+│   ├── Section 3: Core Video Processing
+│   ├── Section 4: Object Detection & Classification
+│   ├── Section 5: Obstacle Avoidance Logic
+│   ├── Section 6: Display & Visual Aids
+│   ├── Section 7-8: Airplane Animation Classes
+│   ├── Section 9: Threaded Video Processing
+│   ├── Section 10: Main Execution Controller
+│   └── Section 11: Cleanup & Error Handling
+|── README.md
+
 ```
 
 ## 🤝 Contributing
