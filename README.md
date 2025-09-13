@@ -1,10 +1,9 @@
 # ✈️ UAV Obstacle Avoidance System
-
-A real-time computer vision system that detects obstacles and generates flight commands for obstacle avoidance, featuring both performance-optimized video processing and an interactive airplane animation GUI.
-
 ![System Overview](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.0+-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
+
+A real-time computer vision system that detects obstacles and generates flight commands for obstacle avoidance, featuring both performance-optimized video processing and an interactive airplane animation GUI.
 
 ## 🎯 Overview
 
@@ -17,6 +16,20 @@ This system processes live video feed from an IP camera to detect and classify c
 - **Dynamic Avoidance Logic**: Generates roll and pitch commands based on obstacle proximity
 - **Dual Execution Modes**: Performance mode for optimal processing or Animation mode with GUI
 - **Interactive Airplane Visualization**: 3D-style airplane model with realistic control surface animations
+
+## 📸 Demo Screenshots
+
+### System in Action
+![Obstacle Detection](assets/PerformanceMode.png)
+*Real-time detection of red triangles (dangerous obstacles) with avoidance commands*
+
+### Airplane Animation GUI
+![GUI Animation](assets/AnimationMode.png)
+*Interactive airplane visualization showing roll and pitch responses*
+
+### System Architecture
+![System Flowchart](assets/Logic-flowchart.png)
+*Processing pipeline and decision flow*
 
 ## 🛩️ Object Classification System
 
