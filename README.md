@@ -182,7 +182,7 @@ ELSE:
 📋 **[View Detailed Logic Flowchart](assets/Logic-flowchart.png)** - Complete decision tree diagram
 
 
-## 🎨 GUI Features (Animation Mode)
+## 🎨 GUI Features
 
 ### Airplane Visualization Components
 
