@@ -291,7 +291,7 @@ OpenCV-Flight-Controller/
 │   ├── AnimationMode.png
 │   ├── System-flowchart.png
 │   └── Logic-flowchart.png
-├── airplane_avoidance_system.py
+├── flight_controller.py
 │   ├── Section 1: Setup & Configuration
 │   ├── Section 2: Shape Detection Functions  
 │   ├── Section 3: Core Video Processing
