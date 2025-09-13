@@ -17,6 +17,15 @@ This system processes live video feed from an IP camera to detect and classify c
 - **Dual Execution Modes**: Performance mode for optimal processing or Animation mode with GUI
 - **Interactive Airplane Visualization**: 3D-style airplane model with realistic control surface animations
 
+<br>
+
+<div align="center">
+    
+<img src="assets/System-flowchart.png" alt="System Flowchart" width="600"><br>
+System Overview
+
+</div>
+
 ## 📸 Demo Screenshots
 <div align="center">
     
@@ -28,12 +37,8 @@ Real-time detection of red triangles (dangerous obstacles) with avoidance comman
 <img src="assets/AnimationMode.png" alt="GUI Animation" width="500"><br>
 Interactive airplane visualization showing roll and pitch responses <br>
 
-<br>
-
-<img src="assets/Logic-flowchart.png" alt="System Flowchart" width="400"><br>
-Processing pipeline and decision flow
-
 </div>
+
 
 ## 🛩️ Object Classification System
 
