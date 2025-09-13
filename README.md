@@ -20,15 +20,15 @@ This system processes live video feed from an IP camera to detect and classify c
 ## 📸 Demo Screenshots
 
 ### System in Action
-![Obstacle Detection](assets/PerformanceMode.png)
+![Obstacle Detection](assets/PerformanceMode.png) <br>
 *Real-time detection of red triangles (dangerous obstacles) with avoidance commands*
 
 ### Airplane Animation GUI
-![GUI Animation](assets/AnimationMode.png)
+![GUI Animation](assets/AnimationMode.png) <br>
 *Interactive airplane visualization showing roll and pitch responses*
 
 ### System Architecture
-![System Flowchart](assets/Logic-flowchart.png)
+![System Flowchart](assets/Logic-flowchart.png) <br>
 *Processing pipeline and decision flow*
 
 ## 🛩️ Object Classification System
