@@ -22,7 +22,7 @@ This system processes live video feed from an IP camera to detect and classify c
 <div align="center">
     
 <img src="assets/System-flowchart.png" alt="System Flowchart" width="600"><br>
-*Complete System Architecture*
+*System Architecture Overview*
 
 </div>
 
