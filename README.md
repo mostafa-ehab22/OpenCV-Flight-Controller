@@ -30,12 +30,12 @@ System Overview
 <div align="center">
     
 <img src="assets/PerformanceMode.png" alt="Obstacle Detection" width="500"><br>
-Real-time detection of dangerous obstacles with avoidance commands 
+*Real-time detection of dangerous obstacles with avoidance commands* 
 
 <br>
 
 <img src="assets/AnimationMode.png" alt="GUI Animation" width="500"><br>
-Interactive airplane visualization showing roll and pitch responses <br>
+*Interactive airplane visualization showing roll and pitch responses*
 
 </div>
 
