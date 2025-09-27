@@ -140,7 +140,7 @@ ENABLE_ANIMATION = True
 ### Running the System
 
 ```bash
-python airplane_avoidance_system.py
+python flight_controller.py
 ```
 
 ### Controls
