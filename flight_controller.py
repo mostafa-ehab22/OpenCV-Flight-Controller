@@ -7,8 +7,8 @@ import sys
 #                                           SECTION 1: SETUP
 # -------------------------------------------------------------------------------------------------------
 
-# Using your saved port for the video stream.
-video_url = "http://192.168.0.155:8080/video"
+# Using local port for the video stream.
+video_url = "http://10.109.169.136:8080/video"
 
 # Initialize the video capture object.
 cap = cv2.VideoCapture(video_url)
@@ -107,9 +107,11 @@ def main_obstacle_detection():
                     continue
 
                 shape = detect_shape(contour)
-                
-                M = cv2.moments(contour)
-                cX = int(M["m10"] / M["m00"]) if M["m00"] != 0 else 0
+
+                # Center point of shape calculation
+                M = cv2.moments(contour) 
+                # Coordinates of center point
+                cX = int(M["m10"] / M["m00"]) if M["m00"] != 0 else 0  
                 cY = int(M["m01"] / M["m00"]) if M["m00"] != 0 else 0
 
                 classification = ""
@@ -592,7 +594,7 @@ if __name__ == "__main__":
     # CHOOSE EXECUTION MODE:
         # Set to True for GUI animation + video processing
         # Set to False for video processing only (better performance)
-    ENABLE_ANIMATION = True
+    ENABLE_ANIMATION = False
     
     try:
         if ENABLE_ANIMATION:
