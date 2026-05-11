@@ -17,27 +17,40 @@ This system processes live video feed from an IP camera to detect and classify c
 - **Dual Execution Modes**: Performance mode for optimal processing or Animation mode with GUI
 - **Interactive Airplane Visualization**: 3D-style airplane model with realistic control surface animations
 
+<br>
+
+<div align="center">
+    
+<img src="assets/System-flowchart.png" alt="System Flowchart" width="600"><br>
+*System Architecture Overview*
+
+</div>
+
 ## 📸 Demo Screenshots
+<div align="center">
+    
+<img src="assets/PerformanceMode.png" alt="Obstacle Detection" width="500"><br>
+*Real-time detection of dangerous obstacles with avoidance commands* 
 
-### System in Action
-![Obstacle Detection](assets/PerformanceMode.png) <br>
-*Real-time detection of red triangles (dangerous obstacles) with avoidance commands*
+<br>
 
-### Airplane Animation GUI
-![GUI Animation](assets/AnimationMode.png) <br>
+<img src="assets/AnimationMode.png" alt="GUI Animation" width="500"><br>
 *Interactive airplane visualization showing roll and pitch responses*
 
-### System Architecture
-![System Flowchart](assets/Logic-flowchart.png) <br>
-*Processing pipeline and decision flow*
+</div>
+
 
 ## 🛩️ Object Classification System
 
+<div align="center">
+    
 | Object Type | Color | Shape | Classification | Action |
 |-------------|-------|-------|----------------|--------|
 | **Dangerous Obstacle** | 🔴 Red | △ Triangle | High Priority Avoidance | Roll/Pitch commands generated |
 | **Boundary Marker** | 🔵 Blue | ◻️ Square | Navigation Reference | Visual tracking only |
 | **Safe Zone** | 🟢 Green | ● Circle | Safe Area | No avoidance needed |
+
+</div>
 
 ## 🚀 Installation
 
@@ -127,7 +140,7 @@ ENABLE_ANIMATION = True
 ### Running the System
 
 ```bash
-python airplane_avoidance_system.py
+python flight_controller.py
 ```
 
 ### Controls
@@ -166,7 +179,10 @@ ELSE:
     COMMAND = "Clear"
 ```
 
-## 🎨 GUI Features (Animation Mode)
+📋 **[View Detailed Logic Flowchart](assets/Logic-flowchart.png)** - Complete decision tree diagram
+
+
+## 🎨 GUI Features
 
 ### Airplane Visualization Components
 
@@ -269,17 +285,25 @@ video_thread.start()
 ## 📊 Project Structure
 
 ```
-airplane_avoidance_system.py
-├── Section 1: Setup & Configuration
-├── Section 2: Shape Detection Functions  
-├── Section 3: Core Video Processing
-├── Section 4: Object Detection & Classification
-├── Section 5: Obstacle Avoidance Logic
-├── Section 6: Display & Visual Aids
-├── Section 7-8: Airplane Animation Classes
-├── Section 9: Threaded Video Processing
-├── Section 10: Main Execution Controller
-└── Section 11: Cleanup & Error Handling
+OpenCV-Flight-Controller/
+├── assets/
+│   ├── PerformanceMode.png
+│   ├── AnimationMode.png
+│   ├── System-flowchart.png
+│   └── Logic-flowchart.png
+├── flight_controller.py
+│   ├── Section 1: Setup & Configuration
+│   ├── Section 2: Shape Detection Functions  
+│   ├── Section 3: Core Video Processing
+│   ├── Section 4: Object Detection & Classification
+│   ├── Section 5: Obstacle Avoidance Logic
+│   ├── Section 6: Display & Visual Aids
+│   ├── Section 7-8: Airplane Animation Classes
+│   ├── Section 9: Threaded Video Processing
+│   ├── Section 10: Main Execution Controller
+│   └── Section 11: Cleanup & Error Handling
+|── README.md
+
 ```
 
 ## 🤝 Contributing
@@ -306,5 +330,3 @@ Contributions are welcome! Areas for improvement:
 ## 📄 License
 
 This project is open-source. Please ensure responsible use, especially when integrating with real aircraft systems.
-
-**⚠️ Safety Notice**: This system is designed for educational and simulation purposes. Any integration with real aircraft systems should undergo thorough testing and comply with aviation safety regulations.
