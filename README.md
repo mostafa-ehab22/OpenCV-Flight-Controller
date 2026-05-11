@@ -29,12 +29,12 @@ This system processes live video feed from an IP camera to detect and classify c
 ## 📸 Demo Screenshots
 <div align="center">
     
-<img src="assets/PerformanceMode.png" alt="Obstacle Detection" width="500"><br>
+<img src="assets/PerformanceMode.png" alt="Obstacle Detection" width="600"><br>
 *Real-time detection of dangerous obstacles with avoidance commands* 
 
 <br>
 
-<img src="assets/AnimationMode.png" alt="GUI Animation" width="500"><br>
+<img src="assets/AnimationMode.png" alt="GUI Animation" width="600"><br>
 *Interactive airplane visualization showing roll and pitch responses*
 
 </div>
