@@ -45,7 +45,7 @@ This system processes live video feed from an IP camera to detect and classify c
 <div align="center">
     
 | Object Type | Color | Shape | Classification | Action |
-|-------------|-------|-------|----------------|--------|
+|-------------|-------|:-------:|----------------|--------|
 | **Dangerous Obstacle** | 🔴 Red | △ | High Priority Avoidance | Roll/Pitch commands generated |
 | **Boundary Marker** | 🔵 Blue | ▢ | Navigation Reference | Visual tracking only |
 | **Safe Zone** | 🟢 Green | ◯ | Safe Area | No avoidance needed |
