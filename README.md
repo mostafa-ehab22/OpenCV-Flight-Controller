@@ -1,20 +1,19 @@
-# ✈️ UAV Obstacle Avoidance System
+## 🎯 Project Overview
 ![Python](https://img.shields.io/badge/Python-darkblue.svg?logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-C0392B?logo=opencv)
 
-A computer vision system that classifies airborne obstacles by color and shape, then generates roll and pitch commands to avoid them. Built with two execution modes: a performance-optimized processing pipeline for deployment, and an interactive GUI that animates aircraft control surface responses in real time.
-
-## 🎯 Project Overview
-
-Ingests a live IP camera feed, runs HSV-based object detection to classify obstacles as dangerous, boundary, or safe, and outputs avoidance commands based on proximity and position relative to frame center. A multithreaded airplane visualization renders aileron, elevator, and fuselage responses to each command as they are generated.
+**UAV obstacle avoidance system** that processes live IP camera footage, classifies 
+airborne obstacles by color and shape into **dangerous, boundary, or safe** categories, 
+then issues **roll and pitch commands** based on proximity and frame position. Ships in 
+two modes: a **performance-optimized deployment pipeline**, and an **interactive GUI** that 
+animates aileron, elevator, and fuselage responses to every avoidance command in real time.
 
 ### Key Features
-
-- **Real-time Object Detection**: Identifies colored shapes using HSV color space analysis
-- **Intelligent Classification**: Categorizes objects as dangerous obstacles, boundary markers, or safe zones
-- **Dynamic Avoidance Logic**: Generates roll and pitch commands based on obstacle proximity
-- **Dual Execution Modes**: Performance mode for optimal processing or Animation mode with GUI
-- **Interactive Airplane Visualization**: 3D-style airplane model with realistic control surface animations
+- 📷 **Real-time Object Detection**: HSV color space analysis with dual-range red detection
+- 🔖 **Intelligent Classification**: Dangerous, boundary, or safe zone categorization per frame
+- ⚡ **Dynamic Avoidance Logic**: Roll and pitch commands issued based on proximity and frame position
+- 🔄 **Dual Execution Modes**: Performance pipeline for deployment, animation mode for demonstration
+- ✈️ **Interactive Airplane Visualization**: Aileron, elevator, and fuselage animations per avoidance command
 
 <br>
 
