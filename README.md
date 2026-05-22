@@ -2,11 +2,11 @@
 ![Python](https://img.shields.io/badge/Python-darkblue.svg?logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-C0392B?logo=opencv)
 
-A real-time computer vision system that detects obstacles and generates flight commands for obstacle avoidance, featuring both performance-optimized video processing and an interactive airplane animation GUI.
+A computer vision system that classifies airborne obstacles by color and shape, then generates roll and pitch commands to avoid them. Built with two execution modes: a performance-optimized processing pipeline for deployment, and an interactive GUI that animates aircraft control surface responses in real time.
 
-## 🎯 Overview
+## 🎯 Project Overview
 
-This system processes live video feed from an IP camera to detect and classify colored objects, then generates appropriate flight commands to avoid dangerous obstacles. The project includes a sophisticated airplane visualization that shows real-time aircraft responses to avoidance commands.
+Ingests a live IP camera feed, runs HSV-based object detection to classify obstacles as dangerous, boundary, or safe, and outputs avoidance commands based on proximity and position relative to frame center. A multithreaded airplane visualization renders aileron, elevator, and fuselage responses to each command as they are generated.
 
 ### Key Features
 
@@ -44,7 +44,7 @@ This system processes live video feed from an IP camera to detect and classify c
 <div align="center">
     
 | Object Type | Color | Shape | Classification | Action |
-|-------------|-------|:-------:|----------------|--------|
+|-------------|:-------:|:-------:|----------------|--------|
 | **Dangerous Obstacle** | 🔴 | △ | High Priority Avoidance | Roll/Pitch commands generated |
 | **Boundary Marker** | 🔵 | ▢ | Navigation Reference | Visual tracking only |
 | **Safe Zone** | 🟢 | ◯ | Safe Area | No avoidance needed |
