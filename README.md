@@ -1,7 +1,6 @@
 # ✈️ UAV Obstacle Avoidance System
-![System Overview](https://img.shields.io/badge/Python-3.7+-blue.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.0+-green.svg)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
+![Python](https://img.shields.io/badge/Python-darkblue.svg?logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-C0392B?logo=opencv)
 
 A real-time computer vision system that detects obstacles and generates flight commands for obstacle avoidance, featuring both performance-optimized video processing and an interactive airplane animation GUI.
 
