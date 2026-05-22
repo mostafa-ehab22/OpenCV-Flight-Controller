@@ -4,7 +4,9 @@
 
 **UAV obstacle avoidance system** that processes live IP camera footage, classifies 
 airborne obstacles by color and shape into **dangerous, boundary, or safe** categories, 
-then issues **roll and pitch commands** based on proximity and frame position. Ships in 
+then issues **roll and pitch commands** based on proximity and frame position. 
+
+Ships in 
 two modes: a **performance-optimized deployment pipeline**, and an **interactive GUI** that 
 animates aileron, elevator, and fuselage responses to every avoidance command in real time.
 
