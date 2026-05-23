@@ -7,8 +7,9 @@ airborne obstacles by color and shape into **dangerous, boundary, or safe** cate
 then issues **roll and pitch commands** based on proximity and frame position. 
 
 Ships in 
-two modes: a **performance-optimized deployment pipeline**, and an **interactive GUI** that 
-animates aileron, elevator, and fuselage responses to every avoidance command in real time.
+two modes: a 
+- **Performance-optimized deployment pipeline**
+- **Interactive GUI** animating aileron, elevator, and fuselage responses to every avoidance command in real time.
 
 ## Key Features
 - 📷 **Real-time Object Detection**: HSV color space analysis with dual-range red detection
