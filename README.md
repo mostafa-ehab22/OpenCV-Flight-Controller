@@ -1,4 +1,4 @@
-## 🎯 Project Overview
+# 🎯 Project Overview
 ![Python](https://img.shields.io/badge/Python-darkblue.svg?logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-C0392B?logo=opencv)
 
@@ -10,7 +10,7 @@ Ships in
 two modes: a **performance-optimized deployment pipeline**, and an **interactive GUI** that 
 animates aileron, elevator, and fuselage responses to every avoidance command in real time.
 
-### Key Features
+## Key Features
 - 📷 **Real-time Object Detection**: HSV color space analysis with dual-range red detection
 - 🔖 **Intelligent Classification**: Dangerous, boundary, or safe zone categorization per frame
 - ⚡ **Dynamic Avoidance Logic**: Roll and pitch commands issued based on proximity and frame position
