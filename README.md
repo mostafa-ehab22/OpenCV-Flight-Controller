@@ -7,15 +7,16 @@ airborne obstacles by color and shape into **dangerous, boundary, or safe** cate
 then issues **roll and pitch commands** based on proximity and frame position. 
 
 Ships in two modes:
-- **Performance-optimized deployment pipeline**
-- **Interactive GUI** animating aileron, elevator, and fuselage responses to every avoidance command in real time.
+- **Performance Pipeline**: single-window, zero animation overhead, frame-rate optimized for real-world deployment
+- **Animation Mode:** dual-window GUI with live aileron, elevator, and fuselage response per avoidance command
 
-## Key Features
-- 📷 **Real-time Object Detection**: HSV color space analysis with dual-range red detection
-- 🔖 **Intelligent Classification**: Dangerous, boundary, or safe zone categorization per frame
-- ⚡ **Dynamic Avoidance Logic**: Roll and pitch commands issued based on proximity and frame position
-- 🔄 **Dual Execution Modes**: Performance pipeline for deployment, animation mode for demonstration
-- ✈️ **Interactive Airplane Visualization**: Aileron, elevator, and fuselage animations per avoidance command
+## ⚙️ Core Capabilities
+- **Real-time Object Detection**: HSV color space analysis with dual-range red detection
+- **Intelligent Classification**: Dangerous, boundary, or safe zone categorization per frame
+- **Dynamic Avoidance Logic**: Roll and pitch commands issued based on proximity and frame position
+- **Dual Execution Modes**: Performance pipeline for deployment, animation mode for demonstration
+- **Interactive Airplane Visualization**: Aileron, elevator, and fuselage animations per avoidance command
+
 
 <br>
 
