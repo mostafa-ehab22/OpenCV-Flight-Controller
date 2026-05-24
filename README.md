@@ -7,7 +7,7 @@ airborne obstacles by color and shape into **dangerous, boundary, or safe** cate
 then issues **roll and pitch commands** based on proximity and frame position. 
 
 Ships in two modes:
-1. **Performance Pipeline**: single-window, zero animation overhead, frame-rate optimized for real-world deployment
+1. **Performance Mode**: single-window, zero animation overhead, frame-rate optimized for real-world deployment
 2. **Animation Mode:** dual-window GUI with live aileron, elevator, and fuselage response per avoidance command
 
 ## ⚙️ Core Capabilities
@@ -31,12 +31,12 @@ Ships in two modes:
 <div align="center">
     
 <img src="assets/PerformanceMode.png" alt="Obstacle Detection" width="600"><br>
-*Real-time detection of dangerous obstacles with avoidance commands* 
+*Performance Mode detection of dangerous obstacles with avoidance commands* 
 
 <br>
 
 <img src="assets/AnimationMode.png" alt="GUI Animation" width="600"><br>
-*Interactive airplane visualization showing roll and pitch responses*
+*Animation Mode GUI showing roll and pitch responses*
 
 </div>
 
