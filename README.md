@@ -7,8 +7,8 @@ airborne obstacles by color and shape into **dangerous, boundary, or safe** cate
 then issues **roll and pitch commands** based on proximity and frame position. 
 
 Ships in two modes:
-- **Performance Pipeline**: single-window, zero animation overhead, frame-rate optimized for real-world deployment
-- **Animation Mode:** dual-window GUI with live aileron, elevator, and fuselage response per avoidance command
+1. **Performance Pipeline**: single-window, zero animation overhead, frame-rate optimized for real-world deployment
+2. **Animation Mode:** dual-window GUI with live aileron, elevator, and fuselage response per avoidance command
 
 ## ⚙️ Core Capabilities
 - **Real-time Object Detection**: HSV color space analysis with dual-range red detection
